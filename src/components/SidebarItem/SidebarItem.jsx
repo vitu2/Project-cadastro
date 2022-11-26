@@ -1,11 +1,13 @@
 import React from 'react'
 import { Container } from './styles'
+import { Link } from "react-router-dom";
+import {TesteLink} from './styles'
 
-const SidebarItem = ({ Icon, Text }) => {
+const SidebarItem = ({ Icon, Text}) => {
   return (
     <Container>
       <Icon />
-      {Text}
+      <TesteLink to={Text}>{Text}</TesteLink>      
     </Container>
   )
 }

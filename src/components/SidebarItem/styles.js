@@ -1,9 +1,10 @@
 import styled from 'styled-components';
+import {Link} from "react-router-dom";
 
 export const Container = styled.div`
   display: flex;
   align-items: center;
-  background-color: #1A202C; 
+  background-color: #1a202c;
   font-size: 20px;
   color: white;
   padding: 10px;
@@ -15,5 +16,10 @@ export const Container = styled.div`
   }
   &:hover {
     background-color: black;
-  }
-`;
+  }`
+
+  export const TesteLink = styled(Link)`
+  text-decoration: none;
+  color: white;
+  ` 
+;
