@@ -1,13 +1,14 @@
-import React, { useState } from 'react'
-import Home from './components/Home'
+import React from 'react'
+import Home from './components/Home/Home'
+import Index from './components/Index/Index'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <Home />
+      <Index />
+      {/* <Home /> */}
     </div>
   )
 }
