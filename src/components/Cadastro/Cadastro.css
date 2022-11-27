@@ -1,5 +1,4 @@
 form {
-  background-color: rgb(218, 218, 218);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -8,9 +7,6 @@ form {
   width: 90vh;
   font-size: 20px;
   border-radius: 30px;
-  -webkit-box-shadow: 3px 3px 10px 3px #6c6c6c;
-  -moz-box-shadow: 3px 3px 10px 3px #6c6c6c;
-  box-shadow: 3px 3px 10px 3px #6c6c6c;
 }
 
 form .btn-select {
@@ -43,4 +39,16 @@ select {
 .btn-style:hover {
   transition: 0.2s ease-in;
   background-color: rgb(187, 239, 255);
+}
+
+.modal{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 70vw;
+  height: 40vh;
 }
