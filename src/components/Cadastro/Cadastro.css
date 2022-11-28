@@ -49,11 +49,11 @@ select {
   background-color: whitesmoke;
   border: 1px solid black;
   border-radius: 20px;
-  width: 20vw;
+  width: 60vw;
   height: 40vh;
 }
 
-@media screen and (max-width:390px){
+@media screen and (max-width:410px){
   .modal{
     display: flex;
     position: absolute;
