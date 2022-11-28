@@ -52,3 +52,17 @@ select {
   width: 20vw;
   height: 40vh;
 }
+
+@media screen and (max-width:390px){
+  .modal{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 80vw;
+    height: 40vh;
+  }  
+}
